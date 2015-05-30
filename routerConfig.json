@@ -1,0 +1,122 @@
+[{
+       "id": 1,
+       "state": "error",
+       "url": "",
+       "templateUrl": "views/loanApplication/error/error.html",
+       "controller": null,
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP"
+   },
+   {
+       "id": 2,
+       "state": "content",
+       "url": "",
+       "templateUrl": "views/template/content.html",
+       "controller": "AppController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./template/controller/appController"
+   },
+   {
+       "id": 3,
+       "state": "registrarEncuesta",
+       "url": "",
+       "templateUrl": "views/mantenimiento/encuesta/registrarEncuesta.html",
+       "controller": "RegistrarEncuestaController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/encuesta/registrarEncuestaController"
+   },
+   {
+       "id": 4,
+       "state": "misDatos",
+       "url": "",
+       "templateUrl": "views/mantenimiento/configuracion/cuenta.html",
+       "controller": "CuentaController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/configuracion/cuentaController"
+   },
+   {
+       "id": 5,
+       "state": "misDispositivos",
+       "url": "",
+       "templateUrl": "views/mantenimiento/configuracion/dispositivo.html",
+       "controller": "DispositivoController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/configuracion/dispositivoController"
+   },
+   {
+       "id": 6,
+       "state": "misEncuestadores",
+       "url": "",
+       "templateUrl": "views/mantenimiento/configuracion/encuestador.html",
+       "controller": "EncuestadorController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/configuracion/encuestadorController"
+   },
+   {
+       "id": 7,
+       "state": "misLocales",
+       "url": "",
+       "templateUrl": "views/mantenimiento/configuracion/locales.html",
+       "controller": "LocalController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/configuracion/localController"
+   },
+   {
+       "id": 8,
+       "state": "misServicios",
+       "url": "",
+       "templateUrl": "views/mantenimiento/configuracion/servicios.html",
+       "controller": "ServicioController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/configuracion/servicioController"
+   },
+   {
+       "id": 9,
+       "state": "editarEncuesta",
+       "url": "",
+       "templateUrl": "views/mantenimiento/encuesta/editarEncuesta.html",
+       "controller": "EditarEncuestaController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/encuesta/editarEncuestaController"
+   },
+   {
+       "id": 10,
+       "state": "buscarPregunta",
+       "url": "",
+       "templateUrl": "views/mantenimiento/pregunta/buscarPregunta.html",
+       "controller": "BuscarPreguntaController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/pregunta/buscarPreguntaController"
+   },
+   {
+       "id": 11,
+       "state": "reporteEncuesta",
+       "url": "",
+       "templateUrl": "views/mantenimiento/reporte/reporteEncuesta.html",
+       "controller": "ReporteEncuestaController",
+       "routerParamsList": [],
+       "authenticate": false,
+       "module": "APP",
+       "controllerUrl":"./mantenimiento/controller/reporte/reporteEncuestaController"
+   }
+   
+]
